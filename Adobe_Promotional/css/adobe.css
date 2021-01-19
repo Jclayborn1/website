@@ -1,0 +1,27 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+body {
+  background-color: #e4e5ea;
+  margin: 0 0 0 0;
+}
+
+ul li {
+  padding: 0.3rem;
+  line-height: 1rem;
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+#button {
+  background-color: #1473e6;
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -ms-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+
+#button:hover {
+  background-color: rgb(93, 117, 255);
+}
