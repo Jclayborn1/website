@@ -1,0 +1,42 @@
+{
+    "ALL": [
+        {
+            "time": "<img width='500' alt='Apple' src='img/apple-mockup.png'>",
+            "title": "../Apple/html/apple.html"    
+        },
+        {
+            "time": "<img width='500' alt='Adobe' src='img/adobe-mockup.png'>",
+            "title": "../Adobe_Promotional/html/index.html"
+        },
+        {
+            "time": "<img width='500' alt='Lyft' src='img/lyft-mockup.png'>",
+            "title": "../Lyft/html/index.html"
+        },
+        {
+            "time": "<img width='500' alt='LLS' src='img/lls-mockup.png'>",
+            "title": "../LLS_Newsletter/html/lls.html"
+        }
+        
+    ],
+    "EMAILS": [
+        {
+            "time": "<img width='500' alt='Adobe' src='img/adobe-mockup.png'>",
+            "title": "../Adobe_Promotional/html/index.html"
+        },
+        {
+            "time": "<img width='500' alt='Lyft' src='img/lyft-mockup.png'>",
+            "title": "../Lyft/html/index.html"
+        },
+        {
+            "time": "<img width='500' alt='LLS' src='img/lls-mockup.png'>",
+            "title": "../LLS_Newsletter/html/lls.html"
+        }
+    ],
+    "LANDING": [
+        {
+            "time": "<img width='500' alt='Apple' src='img/apple-mockup.png'>",
+            "title": "../Apple/html/apple.html"    
+        }
+       
+    ]
+}

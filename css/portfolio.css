@@ -1,0 +1,277 @@
+/* The Maker Bus Stylesheet */
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:700,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+body {
+  background-color: #f4f7f6;
+  color: rgb(145, 145, 145);
+  font-family: "Open Sans", arial, sans-serif;
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+
+header {
+  display: block;
+  height: 90px;
+  border-bottom: 1px solid rgb(199, 199, 199);
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-weight: normal;
+  margin: 28px 0 0 0;
+  float: left;
+  width: 225px;
+  height: 90px;
+
+  background-repeat: no-repeat;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 2.4em;
+  margin: 0.7em 0 1em 0;
+  padding: 0;
+  color: #333;
+  line-height: 1em;
+  letter-spacing: -0.06em;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.4em;
+  color: #333;
+  font-family: oswald, arial, sans-serif;
+}
+
+nav {
+  font-family: oswald, arial, sans-serif;
+  float: right;
+  width: 600px;
+  padding-top: 30px;
+  font-size: 1.4em;
+  text-align: right;
+  text-transform: uppercase;
+}
+nav a {
+  padding-left: 30px;
+}
+nav a:hover,
+a.current {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #837a75;
+}
+
+#event {
+  display: inline-flex;
+}
+
+#event div:not(:last-child) {
+  padding-right: 2rem;
+}
+
+#event div {
+  border-bottom: thin solid #ddd;
+}
+
+#event p {
+  padding: 0;
+  margin: 0;
+}
+
+#event a {
+  font-family: oswald, arial, sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 4.5em;
+}
+
+#event a:hover,
+#sessions a:hover {
+  color: #333;
+}
+
+.third {
+  position: relative;
+  bottom: 20px;
+}
+
+.two-third {
+  background-color: #3a3f52;
+  width: 100%;
+  width: 100%;
+}
+
+.two-third p {
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+}
+
+.two-third img {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  display: grid;
+  padding: 0;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+li a {
+  color: rgb(167, 165, 165);
+}
+
+#tile1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+#tile2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+#tile3 {
+  grid-row: 2;
+  grid-column: 1;
+}
+#tile4 {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+#sessions a {
+  font-family: oswald, arial, sans-serif;
+  font-size: 1.2rem;
+}
+
+#sessions li {
+  list-style-type: none;
+}
+
+#sessions a:hover {
+  color: white;
+}
+
+#sessions a.current {
+  color: white;
+}
+
+#intro {
+  padding: 0 2rem;
+  color: #333;
+}
+
+#mytitle {
+  padding-left: 2rem;
+  position: relative;
+  bottom: 1.5rem;
+  font-size: 1.4rem;
+}
+
+#mytitle2 {
+  padding-left: 2rem;
+  position: relative;
+  bottom: 2.2rem;
+  font-size: 0.9rem;
+}
+
+#myname {
+  padding-left: 2rem;
+}
+
+.skills-cont {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 3rem auto 1rem auto 1rem auto 1rem auto 1rem;
+  grid-template-rows: 1rem auto 0.5rem auto 0.5rem auto 1rem;
+  position: relative;
+  bottom: 30px;
+}
+
+#html5 {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+#css3 {
+  grid-row: 2;
+  grid-column: 4;
+  position: relative;
+  bottom: 5px;
+}
+
+#css3 p {
+  position: relative;
+  bottom: 8px;
+  left: 18px;
+}
+
+#javascript {
+  grid-row: 2;
+  grid-column: 6;
+}
+
+#jquery {
+  grid-row: 2;
+  grid-column: 8;
+}
+
+#json {
+  grid-row: 4;
+  grid-column: 2;
+}
+#json p {
+  position: relative;
+  left: 10px;
+}
+
+#ajax {
+  grid-row: 4;
+  grid-column: 4;
+}
+#ajax p {
+  position: relative;
+  left: 25px;
+  bottom: 3px;
+}
+
+#illustrator {
+  grid-row: 4;
+  grid-column: 6;
+}
+
+#photoshop {
+  grid-row: 4;
+  grid-column: 8;
+}
+
+#postgres {
+  grid-row: 6;
+  grid-column: 2;
+}
+
+.skills-cont div {
+  margin: 1rem;
+}
+
+#intro a:hover {
+  color: #333;
+}

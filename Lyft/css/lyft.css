@@ -1,0 +1,97 @@
+body {
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
+
+p {
+  margin: 3px 0;
+  font-size: 0.8rem;
+}
+
+.tip {
+  padding: 1rem 0;
+}
+
+.visa {
+  padding-bottom: 0.3rem;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.cost {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.pickup {
+  font-size: 1rem;
+}
+
+.time {
+  padding-top: 3px;
+}
+
+.street {
+  margin-left: 20px;
+  margin-bottom: 18px;
+  font-size: 15px;
+}
+
+.join {
+  margin-top: 1rem;
+}
+
+.join-link {
+  color: black;
+  font-size: 16px;
+}
+
+.enable {
+  padding: 0 2rem;
+  margin-top: 0;
+}
+
+.unlimited {
+  padding-top: 1rem;
+}
+
+.help {
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+.receipt {
+  font-size: 0.7rem;
+}
+
+.learn {
+  font-size: 0.75rem;
+}
+
+.open {
+  margin: 0.5rem 0 1.5rem 0;
+  font-size: 0.65rem;
+}
+
+.lyftaddy {
+  font-size: 0.7rem;
+}
+
+.work {
+  margin-top: 1rem;
+}
+.employ {
+  margin-bottom: 1rem;
+}
